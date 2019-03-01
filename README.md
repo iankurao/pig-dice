@@ -24,3 +24,16 @@
 ## Technology used
 
    The language that has mainly been used in this project is Javascript . Its has also greatly involved use of jQuery. Other languages like HTML and CSS have been used to design the structure and also styling.
+
+
+
+
+## Contact Information
+
+   Email: kuraoian@gmail.com
+
+   phone: 0723475550
+
+   whatsapp: 0723475550
+
+   slack:@Ian
