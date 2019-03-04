@@ -28,7 +28,7 @@
               <label for="new-last-player">Player 2</label>
               <input type="text" class="form-control" id="new-last-player">
             </div>
-            <button type="start" class="btn">Start Game</button>
+            <button type="start" class="btn" id="start">Start Game</button>
 
           </form>
 
@@ -37,17 +37,39 @@
       </div>
 
 
-     <div class="col-md-5">
-       <h1>The Game</h1>
-       <div id="rollDice"></div>
-       <div class="button-group">
-         <button id="roll" class="btn btn-default">Roll</button>
-         <button id="pause" class="btn btn-default">Pause</button>
-         <button id="newGame" class="btn btn-default">New Game</button>
-       </div>
-     </div>
+        <div class="container">
+          <div class="jumbotron">
+            <button id="new-game" class="btn-info btn">NEW GAME</button>
+            <div class="row">
+              <div class="col-md-6">
+                <h2>Player 1: <span id="player1Name"><span></h2>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvgdASAZDPouTllD3-_0Yu6nx8I0oBLkX2x4qhtzaU7Q07XJs" alt="dice">
+                <button id="player1-roll" class="btn-success btn">Roll</button>
+                <button id="player1-hold" class="btn-warning btn">Hold</button>
+                <h2>Dice Roll: <span id="die-roll-1"></span></h2>
+                <p>Round Total: <span id="round-total-1"></span></p>
+                <p>Total Score: <span id="total-score-1"></span></p>
+              </div>
+
+              <div class="col-md-6">
+                <h2>Player 2: <span id="player2Name"><span></h2>
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvgdASAZDPouTllD3-_0Yu6nx8I0oBLkX2x4qhtzaU7Q07XJs" alt="dice">
+                <button id="player2-roll" class="btn-success btn">Roll</button>
+                <button id="player2-hold" class="btn-warning btn">Hold</button>
+                <h2>Dice Roll: <span id="die-roll-2"></span></h2>
+                <p>Round Total: <span id="round-total-2"></span></p>
+                <p>Total Score: <span id="total-score-2"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
 
   </body>
+
+  <footer>
+     Designed By Ian Arts
+  </footer>
 
 </html>
