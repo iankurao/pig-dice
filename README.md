@@ -25,7 +25,14 @@
 
    The language that has mainly been used in this project is Javascript . Its has also greatly involved use of jQuery. Other languages like HTML and CSS have been used to design the structure and also styling.
 
+# Behaviour Driven Development
 
+| Behaviour                                                 | Input                         | Output                                                                               |
+|-----------------------------------------------------------|-------------------------------|--------------------------------------------------------------------------------------|
+| This is a two player game.                                | Load up the page via the link | Two sections where the Users are required to input their details and play the game.  |
+| The first player rolls the dice                           | click on the roll button.     | The round total value increases.                                                     |
+| Passing the turn to the second player                     | click on the hold button      | An alert pops up indicating the turn has been passed to the other player             |
+| The app determines the winner depending on the perfomance | Player reaches 100 points     | Player one is the WINNER                                                             |
 
 
 ## Contact Information
