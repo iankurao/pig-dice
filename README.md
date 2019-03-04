@@ -19,6 +19,10 @@
    - `Or Fork the account`
    - `Use the top right button on the page`
 
+## Link to live site
+
+
+  https://iankurao.github.io/quiz_board/
 
 
 ## Technology used
@@ -45,7 +49,9 @@
 
    slack:@Ian
 
+## Bugs
 
+There are no known bugs
 
 ## License
 MIT License
