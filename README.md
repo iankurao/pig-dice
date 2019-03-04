@@ -22,7 +22,7 @@
 ## Link to live site
 
 
-  https://iankurao.github.io/quiz_board/
+  https://iankurao.github.io/pig-dice/
 
 
 ## Technology used
