@@ -6,3 +6,10 @@
 .row {
   text-align: center;
 }
+
+.footer {
+  text-align: center;
+  text-decoration-style: wavy;
+  text-overflow: inherit;
+  padding: inherit;
+}
