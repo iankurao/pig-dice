@@ -22,6 +22,40 @@ Player.prototype.winnerCheck = function() {
 }
 
 
+Player.prototype.hold = function() {
+  this.totalscore += this.currentscore;
+  this.currentscore = 0;
+  alert(this.playerName + ", your turn is over, pass the mouse!");
+}
+
+
+Player.prototype.rollone = function() {
+  if (this.roll === 1) {
+    this.currentscore = 0;
+    alert("Sorry " + this.playerName + ", you rolled a 1! Your turn is over!")
+    // this.changeturn();
+  } else {
+    this.tempscore += this.roll;
+  }
+  
+}
+
+
+Player.prototype.newGame = function() {
+  this.roll = 0;
+  this.currentscore = 0;
+  this.totalscore = 0;
+  this.playerName = "";
+}
+
+var clearValues = function() {
+  $(".challenger1Name").val("");
+  $(".challenger2Name").val("");
+}
+
+
+
+
 // User Interface
 $(document).ready(function() {
 
