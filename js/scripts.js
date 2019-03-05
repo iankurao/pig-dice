@@ -15,6 +15,12 @@ function Player(turn) {
 }
 
 
+Player.prototype.winnerCheck = function() {
+  if (this.totalscore >= 100) {
+    alert(this.playerName + " You are the winner!");
+  }
+}
+
 
 // User Interface
 $(document).ready(function() {
